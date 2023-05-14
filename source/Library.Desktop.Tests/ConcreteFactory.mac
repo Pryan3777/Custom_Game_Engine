@@ -1,0 +1,6 @@
+#define ConcreteFactory(ConcreteProductType, AbstractProductType) \
+	class ConcreteProductType##Factory : public Factory<AbstractProductType> { \
+		virtual AbstractProductType * CreateProduct() override {return new ConcreteProductType;} \
+		virtual const std::string ClassName() const override {return #ConcreteProductType; } \
+	}; \
+	Factory<AbstractProductType>::Add(new ConcreteProductType##Factory);

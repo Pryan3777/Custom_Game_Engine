@@ -1,0 +1,22 @@
+{
+  "ExternalInteger" {
+    "type": "integer",
+    "value": 100
+  },
+  "ExternalFloat" {
+    "type": "float",
+    "value": 15.05
+  },
+  "ExternalString" {
+    "type": "string",
+    "value": "UwU"
+  },
+  "ExternalVector" {
+    "type": "vector",
+    "value": "vec4(1, 2, 3, 4)"
+  },
+  "ExternalMatrix" {
+    "type": "matrix",
+    "value": "mat4x4((1, 2, 3, 4)"
+  }
+}
